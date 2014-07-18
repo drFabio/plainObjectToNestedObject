@@ -1,0 +1,22 @@
+{
+  "name": "plainObjectToNestedObject",
+  "version": "0.0.0",
+  "description": "COnverts objects with plain names to a nested object hierarchy",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drFabio/plainObjectToNestedObject.git"
+  },
+   "devDependencies": {
+     "chai":"*"
+  },
+  "author": "Fabio Oliveira Costa <fabio@dexus.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drFabio/plainObjectToNestedObject/issues"
+  },
+  "homepage": "https://github.com/drFabio/plainObjectToNestedObject"
+}
