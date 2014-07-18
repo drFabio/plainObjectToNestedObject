@@ -10,7 +10,7 @@ function plainObjectToNestedObject(plain)
 	var keys=Object.keys(plain);
 	keys.forEach(function(key)
 	{
-		var path = key.replace(/\]/g, "").split("[");
+		var path = key.split(".");
 		var prevLevel = null;
 		var prevProp = null;
 		var currentLevel = obj;

@@ -32,11 +32,11 @@ describe('plainObjectToNestedObject',function(){
 		expect(data.a).to.equal('b');
 	});
 	it('Should convert a nested key to a nested object',function(){
-		var data=plainObjectToNestedObject({'a[b]':'c'});
+		var data=plainObjectToNestedObject({'a.b':'c'});
 		expect(data.a.b).to.equal('c');
 	});
 	it('Should convert a key three or more levels deep to the correct nesting',function(){
-		var data=plainObjectToNestedObject({'a[b][c][d]':'e'});
+		var data=plainObjectToNestedObject({'a.b.c.d':'e'});
 		expect(data.a.b.c.d).to.equal('e');
 	});
 });

@@ -1,6 +1,6 @@
 {
   "name": "plainObjectToNestedObject",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "COnverts objects with plain names to a nested object hierarchy",
   "main": "index.js",
   "scripts": {
